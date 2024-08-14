@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Encrypt</title>
+</head>
+
+<body>
+  <header class="headerStyles">
+    <h1>JAM Encrypt</h1>
+  </header>
+
+  <section class="intro">
+    <p>Bienvenido al encriptado de texto de JAM para Alura. Introduce el texto que deseas encriptar y observa cómo
+      sucede la magia.</p>
+  </section>
+
+  <main>
+    <form id="text_space" action="">
+      <textarea type="text" title="text-space" name="text-space" placeholder="Introduce tu texto aquí"></textarea>
+      <div id="action_buttons">
+        <button type="button" id="encrypt_btn">Encriptar</button>
+        <button type="button" id="decrypt_btn">Desencriptar</button>
+      </div>
+    </form>
+    <div id="show_space">
+      <!-- Aquí se mostrará el resultado -->
+      <button type="button" id="copy_btn" style="display: none;">
+        <svg class="copy-icon" viewBox="0 0 24 24" width="24" height="24">
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" />
+        </svg>
+        Copiar
+      </button>
+    </div>
+  </main>
+
+  <footer class="footerStyles">
+    <p>&copy; 2024 JAM Encrypt. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
